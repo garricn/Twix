@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "03FC6DBC57DAD588FF9163B00B5A8F5C3993F672",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "03FC6DBC57DAD588FF9163B00B5A8F5C3993F672" : 9223372036854775807,
+    "380E7A403870368C5E27D2180E11354FCFF4E6FE" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5B2B22F7-0A6B-4654-8107-311B5FAA57B6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "03FC6DBC57DAD588FF9163B00B5A8F5C3993F672" : "Twix\/",
+    "380E7A403870368C5E27D2180E11354FCFF4E6FE" : "Twix\/.build\/checkouts\/Files.git-6739420172119258925\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Twix",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Twix.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/garricn\/Twix.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "03FC6DBC57DAD588FF9163B00B5A8F5C3993F672"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/PERSONAL\/Developer\/Twix\/.build\/repositories\/Files.git-6739420172119258925",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "380E7A403870368C5E27D2180E11354FCFF4E6FE"
+    }
+  ]
+}
