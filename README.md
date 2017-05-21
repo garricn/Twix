@@ -42,4 +42,4 @@ Run `twix` in any directory and it will automatically replace those lines.
 
 # IMPORTANT
 
-Twix will automatically and recursively edit ALL Swift files in the current directory and all sub-directories. Be sure to run it on a test file or in a directory under propert source control.
+Twix will automatically and recursively edit ALL Swift files in the current directory and all sub-directories. Be sure to run it on a test file or in a directory under proper source control.
