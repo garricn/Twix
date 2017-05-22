@@ -38,7 +38,6 @@ extension File {
         let components = contents.components(separatedBy: .newlines)
 
         guard components.count > 6 else {
-            print("Error: \(file.name) missing pattern. File must contain more than 6 lines!")
             return false
         }
 
@@ -49,7 +48,6 @@ extension File {
         }
 
         guard !firstSevenLines.filter({ $0.isComment }).isEmpty else {
-            print("Error: \(file.name) missing pattern. First 7 lines must start with '//'!")
             return false
         }
 
@@ -61,32 +59,26 @@ extension File {
         let line6 = firstSevenLines[6]
 
         guard line0 == "//" else {
-            print("Error: \(file.name) missing pattern. First line must equal '//'!")
             return false
         }
 
         guard line1.contains(".swift") else {
-            print("Error: \(file.name) missing pattern. Second line must contain '.swift'!")
             return false
         }
 
         guard line3 == "//" else {
-            print("Error: \(file.name) missing pattern. Forth line must equal '//'!")
             return false
         }
 
         guard line4.contains("Created by") else {
-            print("Error: \(file.name) missing pattern. Fifth line must contain 'Created by'!")
             return false
         }
 
         guard line5.contains("Copyright") else {
-            print("Error: \(file.name) missing pattern. Sixth line must contain 'Copyright'!")
             return false
         }
 
         guard line6 == "//" else {
-            print("Error: \(file.name) missing pattern. Sixth line must equal '//'!")
             return false
         }
 
