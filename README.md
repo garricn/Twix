@@ -31,7 +31,7 @@ Into this:
 $ git clone https://github.com/garricn/Twix.git
 $ cd Twix
 $ swift build -c release -Xswiftc -static-stdlib
-$ cp -f .build/release/Marathon /usr/local/bin/marathon
+$ cp -f .build/release/Twix /usr/local/bin/twix
 ```
 
 That will make `twix` available from anywhere on the command line.
