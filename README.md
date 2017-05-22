@@ -25,6 +25,14 @@ Into this:
 
 ## On macOS
 
+### Make
+
+```
+$ git clone https://github.com/garricn/Twix.git
+$ cd Twix
+$ make
+```
+
 ### Swift Package Manager
 
 ```
