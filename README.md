@@ -38,7 +38,11 @@ That will make `twix` available from anywhere on the command line.
 
 # Usage
 
-Run `twix` in any directory and it will automatically replace those lines.
+- Run `twix` in any directory and it will automatically replace those lines. (Rescursive)
+
+- Run `twix {path to directory}` to run twix on on files in a specific directory. (Recursive)
+
+- Run `twix {path to file}` to run twix on a specific file.
 
 # IMPORTANT
 
