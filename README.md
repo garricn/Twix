@@ -1,5 +1,5 @@
 # Twix
-Swift command line tool for replacing the first 5 lines of a Swift file with one comment line, i.e., `//`.
+Swift command line tool for replacing the first 5 lines of a Swift file with one comment line, i.e., `//`. Lovingly made with [marathon](https://github.com/JohnSundell/Marathon).
 
 Turn this:
 
